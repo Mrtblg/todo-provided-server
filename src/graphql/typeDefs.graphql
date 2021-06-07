@@ -15,7 +15,7 @@ input TodoFiltersInput {
 type Todo {
   id: ID!
   createdAt: DateTime!
-  type: [TodoTypes!]!
+  type: TodoTypes!
   isDone: Boolean!
   text: String
   title: String!
